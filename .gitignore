@@ -6,3 +6,9 @@
 
 # R data files from past sessions
 .Rdata
+.Rproj.user
+ 
+# not gonna upload all of the pdf files
+*.pdf
+
+ggmapTemp.png

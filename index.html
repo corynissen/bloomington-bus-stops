@@ -1,0 +1,1509 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css'>
+    
+    <script src='http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js' type='text/javascript'></script>
+    <script src='https://rawgithub.com/leaflet-extras/leaflet-providers/gh-pages/leaflet-providers.js' type='text/javascript'></script>
+    <script src='http://harrywood.co.uk/maps/examples/leaflet/leaflet-plugins/layer/vector/KML.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 1600px;
+      height: 800px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart133a7a258562' class = 'rChart leaflet'></div>    
+    <script>
+  var spec = {
+ "dom": "chart133a7a258562",
+"width":           1600,
+"height":            800,
+"urlTemplate": "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
+"layerOpts": {
+ "attribution": "Map data<a href=\"http://openstreetmap.org\">OpenStreetMap</a>\n         contributors, Imagery<a href=\"http://mapbox.com\">MapBox</a>" 
+},
+"center": [        40.4739,       -88.9719 ],
+"zoom":             13,
+"provider": "Stamen.TonerLite",
+"features": [
+ {
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94384,       40.49903 ] 
+},
+"properties": {
+ "route": "BHS_11.pdf",
+"od": "6:54 AM RAINBOW AVE @ RIDGEPORT AVE 2:33 PM",
+"pu.time": "6:54 AM",
+"do.time": "2:33 PM",
+"stop": "RAINBOW AVE and RIDGEPORT AVE",
+"color": "#A6CEE3",
+"popup": "<p>Pick up time:  6:54 AM<br>Drop off time:  2:33 PM<br>RAINBOW AVE and RIDGEPORT AVE<br>Route Number:  11</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94381,       40.49615 ] 
+},
+"properties": {
+ "route": "BHS_11.pdf",
+"od": "7:02 AM RIDGEPORT AVE @ CLEARWATER AVE 2:36 PM",
+"pu.time": "7:02 AM",
+"do.time": "2:36 PM",
+"stop": "RIDGEPORT AVE and CLEARWATER AVE",
+"color": "#A6CEE3",
+"popup": "<p>Pick up time:  7:02 AM<br>Drop off time:  2:36 PM<br>RIDGEPORT AVE and CLEARWATER AVE<br>Route Number:  11</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_13.pdf",
+"od": "6:48 AM ON MERCER AT LINCOLN 2:44 PM",
+"pu.time": "6:48 AM",
+"do.time": "2:44 PM",
+"stop": "ON MERCER AT LINCOLN",
+"color": "#1F78B4",
+"popup": "<p>Pick up time:  6:48 AM<br>Drop off time:  2:44 PM<br>ON MERCER AT LINCOLN<br>Route Number:  13</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.96148,       40.46744 ] 
+},
+"properties": {
+ "route": "BHS_13.pdf",
+"od": "6:49 AM BENJAMIN LN @ SNYDER DR 2:46 PM",
+"pu.time": "6:49 AM",
+"do.time": "2:46 PM",
+"stop": "BENJAMIN LN and SNYDER DR",
+"color": "#1F78B4",
+"popup": "<p>Pick up time:  6:49 AM<br>Drop off time:  2:46 PM<br>BENJAMIN LN and SNYDER DR<br>Route Number:  13</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_13.pdf",
+"od": "6:52 AM ON ARCADIA AT FAIRMONT 2:33 PM",
+"pu.time": "6:52 AM",
+"do.time": "2:33 PM",
+"stop": "ON ARCADIA AT FAIRMONT",
+"color": "#1F78B4",
+"popup": "<p>Pick up time:  6:52 AM<br>Drop off time:  2:33 PM<br>ON ARCADIA AT FAIRMONT<br>Route Number:  13</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94833,       40.46809 ] 
+},
+"properties": {
+ "route": "BHS_13.pdf",
+"od": "6:55 AM BROADMOOR DR @ PHEASANT RUN 2:35 PM",
+"pu.time": "6:55 AM",
+"do.time": "2:35 PM",
+"stop": "BROADMOOR DR and PHEASANT RUN",
+"color": "#1F78B4",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:35 PM<br>BROADMOOR DR and PHEASANT RUN<br>Route Number:  13</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94806,       40.47024 ] 
+},
+"properties": {
+ "route": "BHS_13.pdf",
+"od": "6:56 AM BROADMOOR DR @ CAPEN DR 2:36 PM",
+"pu.time": "6:56 AM",
+"do.time": "2:36 PM",
+"stop": "BROADMOOR DR and CAPEN DR",
+"color": "#1F78B4",
+"popup": "<p>Pick up time:  6:56 AM<br>Drop off time:  2:36 PM<br>BROADMOOR DR and CAPEN DR<br>Route Number:  13</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94544,       40.47001 ] 
+},
+"properties": {
+ "route": "BHS_13.pdf",
+"od": "6:57 AM MORNINGSIDE DR. AT MOCKINGBIRD LN 2:37 PM",
+"pu.time": "6:57 AM",
+"do.time": "2:37 PM",
+"stop": "MORNINGSIDE DR. AT MOCKINGBIRD LN",
+"color": "#1F78B4",
+"popup": "<p>Pick up time:  6:57 AM<br>Drop off time:  2:37 PM<br>MORNINGSIDE DR. AT MOCKINGBIRD LN<br>Route Number:  13</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_15.pdf",
+"od": "6:47 AM SPRINGFIELD RD @ MAYWOOD VILLAGE 2:41 PM",
+"pu.time": "6:47 AM",
+"do.time": "2:41 PM",
+"stop": "SPRINGFIELD RD and MAYWOOD VILLAGE",
+"color": "#B2DF8A",
+"popup": "<p>Pick up time:  6:47 AM<br>Drop off time:  2:41 PM<br>SPRINGFIELD RD and MAYWOOD VILLAGE<br>Route Number:  15</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_15.pdf",
+"od": "6:53 AM SPRINGFIELD /LOW @ LAKE 2:36 PM",
+"pu.time": "6:53 AM",
+"do.time": "2:36 PM",
+"stop": "SPRINGFIELD /LOW and LAKE",
+"color": "#B2DF8A",
+"popup": "<p>Pick up time:  6:53 AM<br>Drop off time:  2:36 PM<br>SPRINGFIELD /LOW and LAKE<br>Route Number:  15</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99966,       40.46977 ] 
+},
+"properties": {
+ "route": "BHS_15.pdf",
+"od": "6:55 AM LOW ST @ W MILLER ST 2:34",
+"pu.time": "6:55 AM",
+"do.time": "2:34",
+"stop": "LOW ST and W MILLER ST",
+"color": "#B2DF8A",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:34<br>LOW ST and W MILLER ST<br>Route Number:  15</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99978,        40.4728 ] 
+},
+"properties": {
+ "route": "BHS_15.pdf",
+"od": "6:57 AM LOW ST @ W MACARTHUR AVE 2:32",
+"pu.time": "6:57 AM",
+"do.time": "2:32",
+"stop": "LOW ST and W MACARTHUR AVE",
+"color": "#B2DF8A",
+"popup": "<p>Pick up time:  6:57 AM<br>Drop off time:  2:32<br>LOW ST and W MACARTHUR AVE<br>Route Number:  15</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_15.pdf",
+"od": "7:01 AM ON MCLEAN AT MILL 2:28 PM",
+"pu.time": "7:01 AM",
+"do.time": "2:28 PM",
+"stop": "ON MCLEAN AT MILL",
+"color": "#B2DF8A",
+"popup": "<p>Pick up time:  7:01 AM<br>Drop off time:  2:28 PM<br>ON MCLEAN AT MILL<br>Route Number:  15</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99108,       40.46644 ] 
+},
+"properties": {
+ "route": "BHS_16.pdf",
+"od": "6:56 AM E LINCOLN ST @ WRIGHT ST 2:31 PM",
+"pu.time": "6:56 AM",
+"do.time": "2:31 PM",
+"stop": "E LINCOLN ST and WRIGHT ST",
+"color": "#33A02C",
+"popup": "<p>Pick up time:  6:56 AM<br>Drop off time:  2:31 PM<br>E LINCOLN ST and WRIGHT ST<br>Route Number:  16</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -88.9911,       40.46968 ] 
+},
+"properties": {
+ "route": "BHS_16.pdf",
+"od": "6:58 AM WRIGHT ST @ E MILLER ST 2:30 PM",
+"pu.time": "6:58 AM",
+"do.time": "2:30 PM",
+"stop": "WRIGHT ST and E MILLER ST",
+"color": "#33A02C",
+"popup": "<p>Pick up time:  6:58 AM<br>Drop off time:  2:30 PM<br>WRIGHT ST and E MILLER ST<br>Route Number:  16</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_16.pdf",
+"od": "7:00 AM ON WOOD AT EAST 2:30 PM",
+"pu.time": "7:00 AM",
+"do.time": "2:30 PM",
+"stop": "ON WOOD AT EAST",
+"color": "#33A02C",
+"popup": "<p>Pick up time:  7:00 AM<br>Drop off time:  2:30 PM<br>ON WOOD AT EAST<br>Route Number:  16</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.98559,       40.47217 ] 
+},
+"properties": {
+ "route": "BHS_17.pdf",
+"od": "6:43 AM S CLAYTON ST @ BELL ST 2:28 PM",
+"pu.time": "6:43 AM",
+"do.time": "2:28 PM",
+"stop": "S CLAYTON ST and BELL ST",
+"color": "#FB9A99",
+"popup": "<p>Pick up time:  6:43 AM<br>Drop off time:  2:28 PM<br>S CLAYTON ST and BELL ST<br>Route Number:  17</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.98549,       40.46931 ] 
+},
+"properties": {
+ "route": "BHS_17.pdf",
+"od": "6:46 AM S CLAYTON ST @ FREMONT ST 2:30 PM",
+"pu.time": "6:46 AM",
+"do.time": "2:30 PM",
+"stop": "S CLAYTON ST and FREMONT ST",
+"color": "#FB9A99",
+"popup": "<p>Pick up time:  6:46 AM<br>Drop off time:  2:30 PM<br>S CLAYTON ST and FREMONT ST<br>Route Number:  17</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.98359,       40.46672 ] 
+},
+"properties": {
+ "route": "BHS_17.pdf",
+"od": "6:49 AM E LINCOLN ST @ S CLINTON ST 2:32 PM",
+"pu.time": "6:49 AM",
+"do.time": "2:32 PM",
+"stop": "E LINCOLN ST and S CLINTON ST",
+"color": "#FB9A99",
+"popup": "<p>Pick up time:  6:49 AM<br>Drop off time:  2:32 PM<br>E LINCOLN ST and S CLINTON ST<br>Route Number:  17</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.98827,       40.46223 ] 
+},
+"properties": {
+ "route": "BHS_17.pdf",
+"od": "6:52 AM AT 1619 R T DUNN DR 2:35 PM",
+"pu.time": "6:52 AM",
+"do.time": "2:35 PM",
+"stop": "AT 1619 R T DUNN DR",
+"color": "#FB9A99",
+"popup": "<p>Pick up time:  6:52 AM<br>Drop off time:  2:35 PM<br>AT 1619 R T DUNN DR<br>Route Number:  17</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99499,       40.46638 ] 
+},
+"properties": {
+ "route": "BHS_17.pdf",
+"od": "6:55 AM W LINCOLN ST @ S MADISON ST 2:39 PM",
+"pu.time": "6:55 AM",
+"do.time": "2:39 PM",
+"stop": "W LINCOLN ST and S MADISON ST",
+"color": "#FB9A99",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:39 PM<br>W LINCOLN ST and S MADISON ST<br>Route Number:  17</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -88.9951,       40.46953 ] 
+},
+"properties": {
+ "route": "BHS_17.pdf",
+"od": "6:58 AM S MADISON ST @ W MILLER ST 2:41 PM",
+"pu.time": "6:58 AM",
+"do.time": "2:41 PM",
+"stop": "S MADISON ST and W MILLER ST",
+"color": "#FB9A99",
+"popup": "<p>Pick up time:  6:58 AM<br>Drop off time:  2:41 PM<br>S MADISON ST and W MILLER ST<br>Route Number:  17</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99521,       40.47216 ] 
+},
+"properties": {
+ "route": "BHS_17.pdf",
+"od": "6:59 AM S MADISON ST @ W ELM ST 2:42 PM",
+"pu.time": "6:59 AM",
+"do.time": "2:42 PM",
+"stop": "S MADISON ST and W ELM ST",
+"color": "#FB9A99",
+"popup": "<p>Pick up time:  6:59 AM<br>Drop off time:  2:42 PM<br>S MADISON ST and W ELM ST<br>Route Number:  17</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -88.9453,       40.46608 ] 
+},
+"properties": {
+ "route": "BHS_19.pdf",
+"od": "6:43 AM E LINCOLN ST @ WOODBRIDGE BLVD 2:34 PM",
+"pu.time": "6:43 AM",
+"do.time": "2:34 PM",
+"stop": "E LINCOLN ST and WOODBRIDGE BLVD",
+"color": "#E31A1C",
+"popup": "<p>Pick up time:  6:43 AM<br>Drop off time:  2:34 PM<br>E LINCOLN ST and WOODBRIDGE BLVD<br>Route Number:  19</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94283,       40.46021 ] 
+},
+"properties": {
+ "route": "BHS_19.pdf",
+"od": "6:46 AM S HERSHEY RD @ BROMPTON CT 2:36 PM",
+"pu.time": "6:46 AM",
+"do.time": "2:36 PM",
+"stop": "S HERSHEY RD and BROMPTON CT",
+"color": "#E31A1C",
+"popup": "<p>Pick up time:  6:46 AM<br>Drop off time:  2:36 PM<br>S HERSHEY RD and BROMPTON CT<br>Route Number:  19</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93991,       40.46088 ] 
+},
+"properties": {
+ "route": "BHS_19.pdf",
+"od": "6:50 AM DOVER AND DOWNING 2:39 PM",
+"pu.time": "6:50 AM",
+"do.time": "2:39 PM",
+"stop": "DOVER AND DOWNING",
+"color": "#E31A1C",
+"popup": "<p>Pick up time:  6:50 AM<br>Drop off time:  2:39 PM<br>DOVER AND DOWNING<br>Route Number:  19</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94166,       40.46321 ] 
+},
+"properties": {
+ "route": "BHS_19.pdf",
+"od": "6:54 AM DOVER RD @ GLOUSTER CIR (SOUTH) 2:42 PM",
+"pu.time": "6:54 AM",
+"do.time": "2:42 PM",
+"stop": "DOVER RD and GLOUSTER CIR (SOUTH)",
+"color": "#E31A1C",
+"popup": "<p>Pick up time:  6:54 AM<br>Drop off time:  2:42 PM<br>DOVER RD and GLOUSTER CIR (SOUTH)<br>Route Number:  19</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99224,       40.49309 ] 
+},
+"properties": {
+ "route": "BHS_26.pdf",
+"od": "6:52 AM E EMERSON ST @ N EAST ST 2:27 PM",
+"pu.time": "6:52 AM",
+"do.time": "2:27 PM",
+"stop": "E EMERSON ST and N EAST ST",
+"color": "#FDBF6F",
+"popup": "<p>Pick up time:  6:52 AM<br>Drop off time:  2:27 PM<br>E EMERSON ST and N EAST ST<br>Route Number:  26</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99793,       40.49106 ] 
+},
+"properties": {
+ "route": "BHS_26.pdf",
+"od": "6:53 AM N LEE ST @ W UNION ST 2:29 PM",
+"pu.time": "6:53 AM",
+"do.time": "2:29 PM",
+"stop": "N LEE ST and W UNION ST",
+"color": "#FDBF6F",
+"popup": "<p>Pick up time:  6:53 AM<br>Drop off time:  2:29 PM<br>N LEE ST and W UNION ST<br>Route Number:  26</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99787,       40.48871 ] 
+},
+"properties": {
+ "route": "BHS_26.pdf",
+"od": "6:56 AM N LEE ST @ SCOTT ST 2:31 PM",
+"pu.time": "6:56 AM",
+"do.time": "2:31 PM",
+"stop": "N LEE ST and SCOTT ST",
+"color": "#FDBF6F",
+"popup": "<p>Pick up time:  6:56 AM<br>Drop off time:  2:31 PM<br>N LEE ST and SCOTT ST<br>Route Number:  26</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99773,       40.48556 ] 
+},
+"properties": {
+ "route": "BHS_26.pdf",
+"od": "6:58 AM N LEE ST @ W CHESTNUT ST 2:32 PM",
+"pu.time": "6:58 AM",
+"do.time": "2:32 PM",
+"stop": "N LEE ST and W CHESTNUT ST",
+"color": "#FDBF6F",
+"popup": "<p>Pick up time:  6:58 AM<br>Drop off time:  2:32 PM<br>N LEE ST and W CHESTNUT ST<br>Route Number:  26</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99763,       40.48338 ] 
+},
+"properties": {
+ "route": "BHS_26.pdf",
+"od": "7:00 AM N LEE ST @ W MULBERRY ST 2:34 PM",
+"pu.time": "7:00 AM",
+"do.time": "2:34 PM",
+"stop": "N LEE ST and W MULBERRY ST",
+"color": "#FDBF6F",
+"popup": "<p>Pick up time:  7:00 AM<br>Drop off time:  2:34 PM<br>N LEE ST and W MULBERRY ST<br>Route Number:  26</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -89.00192,        40.4743 ] 
+},
+"properties": {
+ "route": "BHS_28.pdf",
+"od": "6:55 AM S ALLIN ST @ W MILL ST 2:30 PM",
+"pu.time": "6:55 AM",
+"do.time": "2:30 PM",
+"stop": "S ALLIN ST and W MILL ST",
+"color": "#FF7F00",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:30 PM<br>S ALLIN ST and W MILL ST<br>Route Number:  28</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [        -89.002,       40.47689 ] 
+},
+"properties": {
+ "route": "BHS_28.pdf",
+"od": "6:59 AM S ALLIN ST @ W OLIVE ST 2:33 PM",
+"pu.time": "6:59 AM",
+"do.time": "2:33 PM",
+"stop": "S ALLIN ST and W OLIVE ST",
+"color": "#FF7F00",
+"popup": "<p>Pick up time:  6:59 AM<br>Drop off time:  2:33 PM<br>S ALLIN ST and W OLIVE ST<br>Route Number:  28</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -89.00645,       40.47343 ] 
+},
+"properties": {
+ "route": "BHS_30.pdf",
+"od": "6:57 AM W OAKLAND AVE @ S MORRIS AVE 2:30 PM",
+"pu.time": "6:57 AM",
+"do.time": "2:30 PM",
+"stop": "W OAKLAND AVE and S MORRIS AVE",
+"color": "#CAB2D6",
+"popup": "<p>Pick up time:  6:57 AM<br>Drop off time:  2:30 PM<br>W OAKLAND AVE and S MORRIS AVE<br>Route Number:  30</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -89.00756,       40.47678 ] 
+},
+"properties": {
+ "route": "BHS_30.pdf",
+"od": "6:59 AM W OLIVE ST @ S WESTERN AVE 2:33 PM",
+"pu.time": "6:59 AM",
+"do.time": "2:33 PM",
+"stop": "W OLIVE ST and S WESTERN AVE",
+"color": "#CAB2D6",
+"popup": "<p>Pick up time:  6:59 AM<br>Drop off time:  2:33 PM<br>W OLIVE ST and S WESTERN AVE<br>Route Number:  30</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_30.pdf",
+"od": "7:00 AM ON GROVE PAST MORRIS 2:35 PM",
+"pu.time": "7:00 AM",
+"do.time": "2:35 PM",
+"stop": "ON GROVE PAST MORRIS",
+"color": "#CAB2D6",
+"popup": "<p>Pick up time:  7:00 AM<br>Drop off time:  2:35 PM<br>ON GROVE PAST MORRIS<br>Route Number:  30</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94527,       40.49032 ] 
+},
+"properties": {
+ "route": "BHS_31.pdf",
+"od": "6:56 AM LAMON DR @ GETTYSBURG DR 2:32 PM",
+"pu.time": "6:56 AM",
+"do.time": "2:32 PM",
+"stop": "LAMON DR and GETTYSBURG DR",
+"color": "#6A3D9A",
+"popup": "<p>Pick up time:  6:56 AM<br>Drop off time:  2:32 PM<br>LAMON DR and GETTYSBURG DR<br>Route Number:  31</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94754,       40.49319 ] 
+},
+"properties": {
+ "route": "BHS_31.pdf",
+"od": "7:00 AM ARROWHEAD DR @ RUTLEDGE RD 2:33 PM",
+"pu.time": "7:00 AM",
+"do.time": "2:33 PM",
+"stop": "ARROWHEAD DR and RUTLEDGE RD",
+"color": "#6A3D9A",
+"popup": "<p>Pick up time:  7:00 AM<br>Drop off time:  2:33 PM<br>ARROWHEAD DR and RUTLEDGE RD<br>Route Number:  31</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94949,       40.48926 ] 
+},
+"properties": {
+ "route": "BHS_31.pdf",
+"od": "7:03 AM MT. VERNON AT DOGWOOD/SALEM 2:35 PM",
+"pu.time": "7:03 AM",
+"do.time": "2:35 PM",
+"stop": "MT. VERNON AT DOGWOOD/SALEM",
+"color": "#6A3D9A",
+"popup": "<p>Pick up time:  7:03 AM<br>Drop off time:  2:35 PM<br>MT. VERNON AT DOGWOOD/SALEM<br>Route Number:  31</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -88.9291,       40.47242 ] 
+},
+"properties": {
+ "route": "BHS_33.pdf",
+"od": "6:45 AM OLD FARM AT TEAL 2:34 PM",
+"pu.time": "6:45 AM",
+"do.time": "2:34 PM",
+"stop": "OLD FARM AT TEAL",
+"color": "#FFFF99",
+"popup": "<p>Pick up time:  6:45 AM<br>Drop off time:  2:34 PM<br>OLD FARM AT TEAL<br>Route Number:  33</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93035,       40.46704 ] 
+},
+"properties": {
+ "route": "BHS_33.pdf",
+"od": "6:48 AM OLD FARM RD @ HAYLOFT RD/PRENZLER 2:38 PM",
+"pu.time": "6:48 AM",
+"do.time": "2:38 PM",
+"stop": "OLD FARM RD and HAYLOFT RD/PRENZLER",
+"color": "#FFFF99",
+"popup": "<p>Pick up time:  6:48 AM<br>Drop off time:  2:38 PM<br>OLD FARM RD and HAYLOFT RD/PRENZLER<br>Route Number:  33</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.92496,         40.469 ] 
+},
+"properties": {
+ "route": "BHS_33.pdf",
+"od": "6:51 AM PRENZLER DR @ EDDY RD 2:41 PM",
+"pu.time": "6:51 AM",
+"do.time": "2:41 PM",
+"stop": "PRENZLER DR and EDDY RD",
+"color": "#FFFF99",
+"popup": "<p>Pick up time:  6:51 AM<br>Drop off time:  2:41 PM<br>PRENZLER DR and EDDY RD<br>Route Number:  33</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.92773,       40.46587 ] 
+},
+"properties": {
+ "route": "BHS_33.pdf",
+"od": "6:54 AM SADDLEBROOK DR @ SABLE OAKS RD 2:43 PM",
+"pu.time": "6:54 AM",
+"do.time": "2:43 PM",
+"stop": "SADDLEBROOK DR and SABLE OAKS RD",
+"color": "#FFFF99",
+"popup": "<p>Pick up time:  6:54 AM<br>Drop off time:  2:43 PM<br>SADDLEBROOK DR and SABLE OAKS RD<br>Route Number:  33</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.92608,       40.46348 ] 
+},
+"properties": {
+ "route": "BHS_33.pdf",
+"od": "6:55 AM SPAHN LN @ TREESDALE LN 2:45 PM",
+"pu.time": "6:55 AM",
+"do.time": "2:45 PM",
+"stop": "SPAHN LN and TREESDALE LN",
+"color": "#FFFF99",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:45 PM<br>SPAHN LN and TREESDALE LN<br>Route Number:  33</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_34.pdf",
+"od": "6:43 AM ON EMERSON AT ALLEY BEFORE ALLIN 2:30 PM",
+"pu.time": "6:43 AM",
+"do.time": "2:30 PM",
+"stop": "ON EMERSON AT ALLEY BEFORE ALLIN",
+"color": "#B15928",
+"popup": "<p>Pick up time:  6:43 AM<br>Drop off time:  2:30 PM<br>ON EMERSON AT ALLEY BEFORE ALLIN<br>Route Number:  34</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_34.pdf",
+"od": "6:44 AM ON MORRIS AT PARKING LOT FOR EVERGREEN 2:32 PM",
+"pu.time": "6:44 AM",
+"do.time": "2:32 PM",
+"stop": "ON MORRIS AT PARKING LOT FOR EVERGREEN",
+"color": "#B15928",
+"popup": "<p>Pick up time:  6:44 AM<br>Drop off time:  2:32 PM<br>ON MORRIS AT PARKING LOT FOR EVERGREEN<br>Route Number:  34</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -89.0086,       40.48894 ] 
+},
+"properties": {
+ "route": "BHS_34.pdf",
+"od": "6:46 AM N WESTERN AVE @ W GRAHAM ST 2:34 PM",
+"pu.time": "6:46 AM",
+"do.time": "2:34 PM",
+"stop": "N WESTERN AVE and W GRAHAM ST",
+"color": "#B15928",
+"popup": "<p>Pick up time:  6:46 AM<br>Drop off time:  2:34 PM<br>N WESTERN AVE and W GRAHAM ST<br>Route Number:  34</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -89.00826,       40.48534 ] 
+},
+"properties": {
+ "route": "BHS_34.pdf",
+"od": "6:49 AM N WESTERN AVE @ W CHESTNUT ST 2:36 PM",
+"pu.time": "6:49 AM",
+"do.time": "2:36 PM",
+"stop": "N WESTERN AVE and W CHESTNUT ST",
+"color": "#B15928",
+"popup": "<p>Pick up time:  6:49 AM<br>Drop off time:  2:36 PM<br>N WESTERN AVE and W CHESTNUT ST<br>Route Number:  34</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -89.01153,       40.48348 ] 
+},
+"properties": {
+ "route": "BHS_34.pdf",
+"od": "6:51 AM N HINSHAW AVE @ W MULBERRY ST 2:38 PM",
+"pu.time": "6:51 AM",
+"do.time": "2:38 PM",
+"stop": "N HINSHAW AVE and W MULBERRY ST",
+"color": "#B15928",
+"popup": "<p>Pick up time:  6:51 AM<br>Drop off time:  2:38 PM<br>N HINSHAW AVE and W MULBERRY ST<br>Route Number:  34</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_34.pdf",
+"od": "6:57 AM RED ROOF INN 2:43 PM",
+"pu.time": "6:57 AM",
+"do.time": "2:43 PM",
+"stop": "RED ROOF INN",
+"color": "#B15928",
+"popup": "<p>Pick up time:  6:57 AM<br>Drop off time:  2:43 PM<br>RED ROOF INN<br>Route Number:  34</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93974,       40.47595 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "6:45 AM WELLINGTON WAY @ CARL DR 2:38 PM",
+"pu.time": "6:45 AM",
+"do.time": "2:38 PM",
+"stop": "WELLINGTON WAY and CARL DR",
+"color": "#050505",
+"popup": "<p>Pick up time:  6:45 AM<br>Drop off time:  2:38 PM<br>WELLINGTON WAY and CARL DR<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -88.9363,        40.4774 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "6:48 AM HUNTER AT GREENLEAF 2:36 PM",
+"pu.time": "6:48 AM",
+"do.time": "2:36 PM",
+"stop": "HUNTER AT GREENLEAF",
+"color": "#050505",
+"popup": "<p>Pick up time:  6:48 AM<br>Drop off time:  2:36 PM<br>HUNTER AT GREENLEAF<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93629,       40.47935 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "6:49 AM GREENLEAF DR @ E WASHINGTON ST 2:35 PM",
+"pu.time": "6:49 AM",
+"do.time": "2:35 PM",
+"stop": "GREENLEAF DR and E WASHINGTON ST",
+"color": "#050505",
+"popup": "<p>Pick up time:  6:49 AM<br>Drop off time:  2:35 PM<br>GREENLEAF DR and E WASHINGTON ST<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93974,       40.47934 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "6:51 AM E WASHINGTON ST @ BAYBERRY 2:33 PM",
+"pu.time": "6:51 AM",
+"do.time": "2:33 PM",
+"stop": "E WASHINGTON ST and BAYBERRY",
+"color": "#050505",
+"popup": "<p>Pick up time:  6:51 AM<br>Drop off time:  2:33 PM<br>E WASHINGTON ST and BAYBERRY<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -88.9417,        40.4795 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "6:52 AM E. WASHINGTON AT DEVONSHIRE 2:32 PM",
+"pu.time": "6:52 AM",
+"do.time": "2:32 PM",
+"stop": "E. WASHINGTON AT DEVONSHIRE",
+"color": "#050505",
+"popup": "<p>Pick up time:  6:52 AM<br>Drop off time:  2:32 PM<br>E. WASHINGTON AT DEVONSHIRE<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "6:56 AM ON HALL AT PROSPECT 2:41 PM",
+"pu.time": "6:56 AM",
+"do.time": "2:41 PM",
+"stop": "ON HALL AT PROSPECT",
+"color": "#050505",
+"popup": "<p>Pick up time:  6:56 AM<br>Drop off time:  2:41 PM<br>ON HALL AT PROSPECT<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94647,       40.47632 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "6:58 AM HALL CT @ S WILLIMSBURG DR 2:43 PM",
+"pu.time": "6:58 AM",
+"do.time": "2:43 PM",
+"stop": "HALL CT and S WILLIMSBURG DR",
+"color": "#050505",
+"popup": "<p>Pick up time:  6:58 AM<br>Drop off time:  2:43 PM<br>HALL CT and S WILLIMSBURG DR<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94622,       40.47811 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "6:59 AM S WILLIAMSBRUG DR @ YORKTOWN DR 2:44 PM",
+"pu.time": "6:59 AM",
+"do.time": "2:44 PM",
+"stop": "S WILLIAMSBRUG DR and YORKTOWN DR",
+"color": "#050505",
+"popup": "<p>Pick up time:  6:59 AM<br>Drop off time:  2:44 PM<br>S WILLIAMSBRUG DR and YORKTOWN DR<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.94623,       40.47993 ] 
+},
+"properties": {
+ "route": "BHS_36.pdf",
+"od": "7:01 AM 101 N WILLIAMSBURG DR 2:45 PM",
+"pu.time": "7:01 AM",
+"do.time": "2:45 PM",
+"stop": "101 N WILLIAMSBURG DR",
+"color": "#050505",
+"popup": "<p>Pick up time:  7:01 AM<br>Drop off time:  2:45 PM<br>101 N WILLIAMSBURG DR<br>Route Number:  36</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93938,       40.49347 ] 
+},
+"properties": {
+ "route": "BHS_40.pdf",
+"od": "6:49 AM ARROWHEAD DR @ CHALLIS DR 2:47 PM",
+"pu.time": "6:49 AM",
+"do.time": "2:47 PM",
+"stop": "ARROWHEAD DR and CHALLIS DR",
+"color": "#FAF20F",
+"popup": "<p>Pick up time:  6:49 AM<br>Drop off time:  2:47 PM<br>ARROWHEAD DR and CHALLIS DR<br>Route Number:  40</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93891,       40.49616 ] 
+},
+"properties": {
+ "route": "BHS_40.pdf",
+"od": "6:50 AM CLEARWATER AVE @ DALLAS ST 2:45 PM",
+"pu.time": "6:50 AM",
+"do.time": "2:45 PM",
+"stop": "CLEARWATER AVE and DALLAS ST",
+"color": "#FAF20F",
+"popup": "<p>Pick up time:  6:50 AM<br>Drop off time:  2:45 PM<br>CLEARWATER AVE and DALLAS ST<br>Route Number:  40</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_40.pdf",
+"od": "6:51 AM ON CLEARWATER ON THE EAST SIDE OF HERSHEY 2:43 PM",
+"pu.time": "6:51 AM",
+"do.time": "2:43 PM",
+"stop": "ON CLEARWATER ON THE EAST SIDE OF HERSHEY",
+"color": "#FAF20F",
+"popup": "<p>Pick up time:  6:51 AM<br>Drop off time:  2:43 PM<br>ON CLEARWATER ON THE EAST SIDE OF HERSHEY<br>Route Number:  40</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [        -88.955,       40.49321 ] 
+},
+"properties": {
+ "route": "BHS_40.pdf",
+"od": "6:58 AM ROWE DR @ BRADLEY DR 2:36 PM",
+"pu.time": "6:58 AM",
+"do.time": "2:36 PM",
+"stop": "ROWE DR and BRADLEY DR",
+"color": "#FAF20F",
+"popup": "<p>Pick up time:  6:58 AM<br>Drop off time:  2:36 PM<br>ROWE DR and BRADLEY DR<br>Route Number:  40</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_40.pdf",
+"od": "6:59 AM DELMAR LN @ MERCHERLE DR 2:33 PM",
+"pu.time": "6:59 AM",
+"do.time": "2:33 PM",
+"stop": "DELMAR LN and MERCHERLE DR",
+"color": "#FAF20F",
+"popup": "<p>Pick up time:  6:59 AM<br>Drop off time:  2:33 PM<br>DELMAR LN and MERCHERLE DR<br>Route Number:  40</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.97156,       40.49928 ] 
+},
+"properties": {
+ "route": "BHS_40.pdf",
+"od": "7:05 AM JERSEY AVE @ EISENHOWER DR 2:28 PM",
+"pu.time": "7:05 AM",
+"do.time": "2:28 PM",
+"stop": "JERSEY AVE and EISENHOWER DR",
+"color": "#FAF20F",
+"popup": "<p>Pick up time:  7:05 AM<br>Drop off time:  2:28 PM<br>JERSEY AVE and EISENHOWER DR<br>Route Number:  40</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.96481,       40.49939 ] 
+},
+"properties": {
+ "route": "BHS_40.pdf",
+"od": "7:06 AM JERSEY AT PARKVIEW 2:30 PM",
+"pu.time": "7:06 AM",
+"do.time": "2:30 PM",
+"stop": "JERSEY AT PARKVIEW",
+"color": "#FAF20F",
+"popup": "<p>Pick up time:  7:06 AM<br>Drop off time:  2:30 PM<br>JERSEY AT PARKVIEW<br>Route Number:  40</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.97717,       40.47227 ] 
+},
+"properties": {
+ "route": "BHS_41.pdf",
+"od": "6:45 AM BELL ST @ MAPLE ST 2:29 PM",
+"pu.time": "6:45 AM",
+"do.time": "2:29 PM",
+"stop": "BELL ST and MAPLE ST",
+"color": "#FA28EC",
+"popup": "<p>Pick up time:  6:45 AM<br>Drop off time:  2:29 PM<br>BELL ST and MAPLE ST<br>Route Number:  41</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.97741,       40.46351 ] 
+},
+"properties": {
+ "route": "BHS_41.pdf",
+"od": "6:50 AM E LAFAYETE ST @ BEVERLY LN 2:34 PM",
+"pu.time": "6:50 AM",
+"do.time": "2:34 PM",
+"stop": "E LAFAYETE ST and BEVERLY LN",
+"color": "#FA28EC",
+"popup": "<p>Pick up time:  6:50 AM<br>Drop off time:  2:34 PM<br>E LAFAYETE ST and BEVERLY LN<br>Route Number:  41</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.96892,       40.46589 ] 
+},
+"properties": {
+ "route": "BHS_41.pdf",
+"od": "6:53 AM MAGNOLIA DR @ MEADOWBROOK DR 2:36 PM",
+"pu.time": "6:53 AM",
+"do.time": "2:36 PM",
+"stop": "MAGNOLIA DR and MEADOWBROOK DR",
+"color": "#FA28EC",
+"popup": "<p>Pick up time:  6:53 AM<br>Drop off time:  2:36 PM<br>MAGNOLIA DR and MEADOWBROOK DR<br>Route Number:  41</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_41.pdf",
+"od": "6:55 AM ON LINCOLN AT ARLENE 2:38 PM",
+"pu.time": "6:55 AM",
+"do.time": "2:38 PM",
+"stop": "ON LINCOLN AT ARLENE",
+"color": "#FA28EC",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:38 PM<br>ON LINCOLN AT ARLENE<br>Route Number:  41</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.96761,       40.47026 ] 
+},
+"properties": {
+ "route": "BHS_41.pdf",
+"od": "6:57 AM VALE ST @ GOLDEN DR 2:41 PM",
+"pu.time": "6:57 AM",
+"do.time": "2:41 PM",
+"stop": "VALE ST and GOLDEN DR",
+"color": "#FA28EC",
+"popup": "<p>Pick up time:  6:57 AM<br>Drop off time:  2:41 PM<br>VALE ST and GOLDEN DR<br>Route Number:  41</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_41.pdf",
+"od": "7:01 AM ON TAYLOR A T GRANT 2:45 PM",
+"pu.time": "7:01 AM",
+"do.time": "2:45 PM",
+"stop": "ON TAYLOR A T GRANT",
+"color": "#FA28EC",
+"popup": "<p>Pick up time:  7:01 AM<br>Drop off time:  2:45 PM<br>ON TAYLOR A T GRANT<br>Route Number:  41</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_41.pdf",
+"od": "7:03 AM ON VALE AT OLIVE 2:44 PM",
+"pu.time": "7:03 AM",
+"do.time": "2:44 PM",
+"stop": "ON VALE AT OLIVE",
+"color": "#FA28EC",
+"popup": "<p>Pick up time:  7:03 AM<br>Drop off time:  2:44 PM<br>ON VALE AT OLIVE<br>Route Number:  41</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.95754,       40.47789 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "6:39 AM S REGENCY DR @ RUST RD 2:32 PM",
+"pu.time": "6:39 AM",
+"do.time": "2:32 PM",
+"stop": "S REGENCY DR and RUST RD",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  6:39 AM<br>Drop off time:  2:32 PM<br>S REGENCY DR and RUST RD<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.95723,       40.47549 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "6:42 AM S REGENCY DR @ E JACKSON ST 2:33 PM",
+"pu.time": "6:42 AM",
+"do.time": "2:33 PM",
+"stop": "S REGENCY DR and E JACKSON ST",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  6:42 AM<br>Drop off time:  2:33 PM<br>S REGENCY DR and E JACKSON ST<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.95543,       40.47084 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "6:48 AM FOUR SEASONS RD @ CLOBERTIN CT 2:40 PM",
+"pu.time": "6:48 AM",
+"do.time": "2:40 PM",
+"stop": "FOUR SEASONS RD and CLOBERTIN CT",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  6:48 AM<br>Drop off time:  2:40 PM<br>FOUR SEASONS RD and CLOBERTIN CT<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -88.9398,       40.46996 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "6:53 AM BROOKSHIRE GRN @ DEVON RD 2:45 PM",
+"pu.time": "6:53 AM",
+"do.time": "2:45 PM",
+"stop": "BROOKSHIRE GRN and DEVON RD",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  6:53 AM<br>Drop off time:  2:45 PM<br>BROOKSHIRE GRN and DEVON RD<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93753,       40.47249 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "6:55 AM WATFORD DR @ SCOFIELD CT 2:47 PM",
+"pu.time": "6:55 AM",
+"do.time": "2:47 PM",
+"stop": "WATFORD DR and SCOFIELD CT",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:47 PM<br>WATFORD DR and SCOFIELD CT<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93487,       40.46969 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "6:57 AM CUMBRIA DR @ CHELSEA DR 2:49 PM",
+"pu.time": "6:57 AM",
+"do.time": "2:49 PM",
+"stop": "CUMBRIA DR and CHELSEA DR",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  6:57 AM<br>Drop off time:  2:49 PM<br>CUMBRIA DR and CHELSEA DR<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.99369,        40.4842 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "7:01 AM MIDDLE OF CRESTWAY 2:52 PM",
+"pu.time": "7:01 AM",
+"do.time": "2:52 PM",
+"stop": "MIDDLE OF CRESTWAY",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  7:01 AM<br>Drop off time:  2:52 PM<br>MIDDLE OF CRESTWAY<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -88.93003,       40.47558 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "7:04 AM CASTLEMAIN DR @ POWERS DR 2:56 PM",
+"pu.time": "7:04 AM",
+"do.time": "2:56 PM",
+"stop": "CASTLEMAIN DR and POWERS DR",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  7:04 AM<br>Drop off time:  2:56 PM<br>CASTLEMAIN DR and POWERS DR<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [         -88.94,       40.47371 ] 
+},
+"properties": {
+ "route": "BHS_44.pdf",
+"od": "7:06 AM 3010 E OAKLAND AVE 2:58 PM",
+"pu.time": "7:06 AM",
+"do.time": "2:58 PM",
+"stop": "3010 E OAKLAND AVE",
+"color": "#24E3CD",
+"popup": "<p>Pick up time:  7:06 AM<br>Drop off time:  2:58 PM<br>3010 E OAKLAND AVE<br>Route Number:  44</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -88.9986,       40.48118 ] 
+},
+"properties": {
+ "route": "BHS_54.pdf",
+"od": "6:55 AM W MONROE ST @ N OAK ST 2:29 PM",
+"pu.time": "6:55 AM",
+"do.time": "2:29 PM",
+"stop": "W MONROE ST and N OAK ST",
+"color": "#DAFAD4",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:29 PM<br>W MONROE ST and N OAK ST<br>Route Number:  54</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -89.00472,       40.48022 ] 
+},
+"properties": {
+ "route": "BHS_54.pdf",
+"od": "7:00 AM HOWARD ST @ W JEFFERSON ST 2:32 PM",
+"pu.time": "7:00 AM",
+"do.time": "2:32 PM",
+"stop": "HOWARD ST and W JEFFERSON ST",
+"color": "#DAFAD4",
+"popup": "<p>Pick up time:  7:00 AM<br>Drop off time:  2:32 PM<br>HOWARD ST and W JEFFERSON ST<br>Route Number:  54</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -89.0098,         40.471 ] 
+},
+"properties": {
+ "route": "BHS_55.pdf",
+"od": "6:45 AM W WOOD ST @ S LIVINGSTON ST 2:32 PM",
+"pu.time": "6:45 AM",
+"do.time": "2:32 PM",
+"stop": "W WOOD ST and S LIVINGSTON ST",
+"color": "#6B6C6E",
+"popup": "<p>Pick up time:  6:45 AM<br>Drop off time:  2:32 PM<br>W WOOD ST and S LIVINGSTON ST<br>Route Number:  55</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [       -89.0133,       40.47636 ] 
+},
+"properties": {
+ "route": "BHS_55.pdf",
+"od": "6:51 AM W OLIVE ST @ MAGOUN ST 2:37 PM",
+"pu.time": "6:51 AM",
+"do.time": "2:37 PM",
+"stop": "W OLIVE ST and MAGOUN ST",
+"color": "#6B6C6E",
+"popup": "<p>Pick up time:  6:51 AM<br>Drop off time:  2:37 PM<br>W OLIVE ST and MAGOUN ST<br>Route Number:  55</p>" 
+} 
+},
+{
+ "type": "Feature",
+"geometry": {
+ "type": "Point",
+"coordinates": [      -89.01876,       40.47453 ] 
+},
+"properties": {
+ "route": "BHS_55.pdf",
+"od": "6:55 AM IOWA ST @ ERICKSON AVE 2:40 PM",
+"pu.time": "6:55 AM",
+"do.time": "2:40 PM",
+"stop": "IOWA ST and ERICKSON AVE",
+"color": "#6B6C6E",
+"popup": "<p>Pick up time:  6:55 AM<br>Drop off time:  2:40 PM<br>IOWA ST and ERICKSON AVE<br>Route Number:  55</p>" 
+} 
+} 
+],
+"id": "chart133a7a258562" 
+}
+
+  var map = L.map(spec.dom, spec.mapOpts)
+  
+    map.setView(spec.center, spec.zoom);
+
+    if (spec.provider){
+      L.tileLayer.provider(spec.provider).addTo(map)    
+    } else {
+		  L.tileLayer(spec.urlTemplate, spec.layerOpts).addTo(map)
+    }
+     
+    
+    
+    
+    
+    
+    if (spec.circle2){
+      for (var c in spec.circle2){
+        var circle = L.circle(c.center, c.radius, c.opts)
+         .addTo(map);
+      }
+    }
+    
+    
+      var popup = L.popup();
+      function onMapClick(e) {
+        popup
+          .setLatLng(e.latlng)
+          .setContent("<b>Latitude:</b> " + e.latlng.lat.toFixed(2) + "<br />" +
+            "<b>Longitude:</b> " + e.latlng.lng.toFixed(2))
+          .openOn(map);
+      }
+      map.on('click', onMapClick);
+    
+    
+    var geojsonLayer = L.geoJson(spec.features 
+        , 
+         {
+ "onEachFeature":  function(feature, layer){
+           layer.bindPopup(feature.properties.popup)
+           } ,
+"pointToLayer":  function(feature, latlng){
+           return L.circleMarker(latlng, {
+           radius: 5,
+           fillColor: feature.properties.color || 'red', 
+           color: '#000',
+           weight: 1,
+           fillOpacity: 0.8
+           })
+           }  
+}
+      ).addTo(map)
+    
+   
+   
+   
+</script>
+    
+    <script></script>    
+  </body>
+</html>
