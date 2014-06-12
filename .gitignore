@@ -8,7 +8,6 @@
 .Rdata
 .Rproj.user
  
-# not gonna upload all of the pdf files
-*.pdf
+
 
 ggmapTemp.png
